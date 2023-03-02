@@ -49,7 +49,7 @@
         }
       ],
       "Name": "Drag",
-      "DefaultValue": 0.4,
+      "DefaultValue": 0.1,
       "SetByDerived": true
     }
   ],
