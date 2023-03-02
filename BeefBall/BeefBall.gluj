@@ -43,6 +43,9 @@
   "EntityReferences": [
     {
       "Name": "Entities\\PlayerBall"
+    },
+    {
+      "Name": "Entities\\Puck"
     }
   ],
   "PluginData": {

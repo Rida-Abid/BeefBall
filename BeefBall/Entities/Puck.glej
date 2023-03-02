@@ -12,10 +12,6 @@
           "Name": "Type",
           "Value": "float",
           "Type": "String"
-        },
-        {
-          "Name": "Category",
-          "Type": "String"
         }
       ],
       "Name": "X"
@@ -26,10 +22,6 @@
           "Name": "Type",
           "Value": "float",
           "Type": "String"
-        },
-        {
-          "Name": "Category",
-          "Type": "String"
         }
       ],
       "Name": "Y"
@@ -39,10 +31,6 @@
         {
           "Name": "Type",
           "Value": "float",
-          "Type": "String"
-        },
-        {
-          "Name": "Category",
           "Type": "String"
         }
       ],
@@ -60,24 +48,8 @@
           "Type": "String"
         }
       ],
-      "Name": "MovementSpeed",
-      "DefaultValue": 100.0,
-      "SetByDerived": true
-    },
-    {
-      "Properties": [
-        {
-          "Name": "Type",
-          "Value": "float",
-          "Type": "String"
-        },
-        {
-          "Name": "Category",
-          "Type": "String"
-        }
-      ],
       "Name": "Drag",
-      "DefaultValue": 1.0,
+      "DefaultValue": 0.4,
       "SetByDerived": true
     }
   ],
@@ -106,17 +78,19 @@
           "Name": "SourceType",
           "Value": 2,
           "Type": "SourceType"
-        },
-        {
-          "Name": "ConditionalCompilationSymbols",
-          "Type": "String"
         }
       ],
       "InstructionSaves": [
         {
           "Type": "float",
           "Member": "Radius",
-          "Value": 16.0,
+          "Value": 6.0,
+          "Time": 0.0
+        },
+        {
+          "Type": "Microsoft.Xna.Framework.Color",
+          "Member": "Color",
+          "Value": "Red",
           "Time": 0.0
         }
       ],
@@ -127,6 +101,6 @@
       "GenerateTimedEmit": true
     }
   ],
-  "Name": "Entities\\PlayerBall",
+  "Name": "Entities\\Puck",
   "CustomClassesForExport": []
 }

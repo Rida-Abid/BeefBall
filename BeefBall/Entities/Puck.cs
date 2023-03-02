@@ -12,16 +12,13 @@ using Microsoft.Xna.Framework;
 
 namespace BeefBall.Entities
 {
-    public partial class PlayerBall
+    public partial class Puck
     {
         /// <summary>
         /// Initialization logic which is execute only one time for this Entity (unless the Entity is pooled).
         /// This method is called when the Entity is added to managers. Entities which are instantiated but not
         /// added to managers will not have this method called.
         /// </summary>
-        /// 
-        public I2DInput MovementInput { get; set; }
-        public IPressableInput BoostInput { get; set; }
         private void CustomInitialize()
         {
 
@@ -31,7 +28,6 @@ namespace BeefBall.Entities
         private void CustomActivity()
         {
 
-            MovementActivity();
 
         }
 
@@ -45,15 +41,6 @@ namespace BeefBall.Entities
         {
 
 
-        }
-
-        private void MovementActivity()
-        {
-            if (MovementInput != null)
-            {
-                this.XAcceleration = MovementInput.X * MovementSpeed;
-                this.YAcceleration = MovementInput.Y * MovementSpeed;
-            }
         }
     }
 }
