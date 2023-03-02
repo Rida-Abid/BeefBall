@@ -12,6 +12,10 @@
           "Name": "Type",
           "Value": "float",
           "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Type": "String"
         }
       ],
       "Name": "X"
@@ -22,6 +26,10 @@
           "Name": "Type",
           "Value": "float",
           "Type": "String"
+        },
+        {
+          "Name": "Category",
+          "Type": "String"
         }
       ],
       "Name": "Y"
@@ -31,6 +39,10 @@
         {
           "Name": "Type",
           "Value": "float",
+          "Type": "String"
+        },
+        {
+          "Name": "Category",
           "Type": "String"
         }
       ],
@@ -78,6 +90,10 @@
           "Name": "SourceType",
           "Value": 2,
           "Type": "SourceType"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
         }
       ],
       "InstructionSaves": [

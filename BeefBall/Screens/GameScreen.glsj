@@ -745,6 +745,599 @@
       "SourceFile": "FlatRedBall.Math.Collision.ListVsListRelationship<Entities.PlayerBall, Entities.Puck>",
       "AttachToContainer": true,
       "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "Obstacles",
+      "SourceClassType": "FlatRedBall.Math.Geometry.ShapeCollection",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "PartitioningAutomaticManual",
+          "Value": 0
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "Shape Collection (.shcx)",
+      "HasPublicProperty": true,
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "obstacle1",
+          "SourceClassType": "FlatRedBall.Math.Geometry.CapsulePolygon",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "IsEditingLocked",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "RotationZ",
+              "Value": 0.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "IgnoreParentPosition",
+              "Value": false,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 2.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "ParentRotationChangesPosition",
+              "Value": true,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "ParentRotationChangesRotation",
+              "Value": true,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 2.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Z",
+              "Value": 2.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "CapsulePolygon",
+          "HasPublicProperty": true,
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "obstacle2",
+          "SourceClassType": "FlatRedBall.Math.Geometry.CapsulePolygon",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            },
+            {
+              "Name": "IsEditingLocked",
+              "Value": true,
+              "Type": "Boolean"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 150.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 125.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Z",
+              "Value": 0.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "RotationZ",
+              "Value": 0.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "ParentRotationChangesRotation",
+              "Value": true,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "ParentRotationChangesPosition",
+              "Value": true,
+              "Time": 0.0
+            },
+            {
+              "Type": "bool",
+              "Member": "IgnoreParentPosition",
+              "Value": false,
+              "Time": 0.0
+            },
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "Color",
+              "Value": "SpringGreen",
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "CapsulePolygon",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "obstacle3",
+          "SourceClassType": "FlatRedBall.Math.Geometry.CapsulePolygon",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "Color",
+              "Value": "SteelBlue",
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -150.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": 125.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "RotationZ",
+              "Value": 0.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "CapsulePolygon",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "obstacle4",
+          "SourceClassType": "FlatRedBall.Math.Geometry.CapsulePolygon",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "Color",
+              "Value": "Yellow",
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -125.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": 150.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "RotationZ",
+              "Value": 0.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "CapsulePolygon",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        },
+        {
+          "InstanceName": "obstacle5",
+          "SourceClassType": "FlatRedBall.Math.Geometry.CapsulePolygon",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 2,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [
+            {
+              "Type": "Microsoft.Xna.Framework.Color",
+              "Member": "Color",
+              "Value": "Violet",
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "X",
+              "Value": -150.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "Y",
+              "Value": -125.0,
+              "Time": 0.0
+            },
+            {
+              "Type": "float",
+              "Member": "RotationZ",
+              "Value": 0.0,
+              "Time": 0.0
+            }
+          ],
+          "SourceType": 2,
+          "SourceFile": "CapsulePolygon",
+          "HasPublicProperty": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    },
+    {
+      "InstanceName": "PlayerBallVsObstacles",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.PlayerBall>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBallList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "Obstacles",
+          "Type": "String"
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "IsAutomaticallyApplyPhysicsChecked",
+          "Value": true
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SoftCollisionCoefficient",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroyFirstOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroySecondOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.PlayerBall>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PuckVsObstacles",
+      "SourceClassType": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.Puck>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PuckList",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "Obstacles",
+          "Type": "String"
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": true
+        },
+        {
+          "Name": "IsAutomaticallyApplyPhysicsChecked",
+          "Value": true
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 0.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SoftCollisionCoefficient",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroyFirstOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroySecondOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "CollisionType",
+          "Value": 2
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.ListVsShapeCollectionRelationship<Entities.Puck>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
+    },
+    {
+      "InstanceName": "PlayerBall1VsObstacles",
+      "SourceClassType": "FlatRedBall.Math.Collision.PositionedObjectVsShapeCollection<BeefBall.Entities.PlayerBall>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "IsAutoNameEnabled",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "FirstCollisionName",
+          "Value": "PlayerBall1",
+          "Type": "String"
+        },
+        {
+          "Name": "SecondCollisionName",
+          "Value": "Obstacles",
+          "Type": "String"
+        },
+        {
+          "Name": "IsCollisionActive",
+          "Value": false
+        },
+        {
+          "Name": "IsAutomaticallyApplyPhysicsChecked",
+          "Value": true
+        },
+        {
+          "Name": "FirstCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SecondCollisionMass",
+          "Value": 1.0
+        },
+        {
+          "Name": "SoftCollisionCoefficient",
+          "Value": 1.0
+        },
+        {
+          "Name": "CollisionElasticity",
+          "Value": 1.0
+        },
+        {
+          "Name": "FirstSubCollisionSelectedItem",
+          "Value": "<Entire Object>"
+        },
+        {
+          "Name": "IsDealDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroyFirstOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "IsDestroySecondOnDamageChecked",
+          "Value": true,
+          "Type": "Object"
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.Collision.PositionedObjectVsShapeCollection<BeefBall.Entities.PlayerBall>",
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true
     }
   ],
   "Name": "Screens\\GameScreen",
