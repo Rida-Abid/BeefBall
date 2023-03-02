@@ -1,0 +1,84 @@
+{
+  "Tags": [
+    "GLUE"
+  ],
+  "Source": "GLUE",
+  "NamedObjects": [
+    {
+      "InstanceName": "PlayerBallList",
+      "SourceClassType": "FlatRedBall.Math.PositionedObjectList<T>",
+      "Properties": [
+        {
+          "Name": "AssociateWithFactory",
+          "Value": true,
+          "Type": "Boolean"
+        },
+        {
+          "Name": "SourceType",
+          "Value": 2,
+          "Type": "SourceType"
+        },
+        {
+          "Name": "SortAxis",
+          "Value": 0
+        },
+        {
+          "Name": "PartitioningAutomaticManual",
+          "Value": 0
+        },
+        {
+          "Name": "PartitionWidthHeight",
+          "Value": 32.0
+        },
+        {
+          "Name": "IsSortListEveryFrameChecked",
+          "Value": true
+        },
+        {
+          "Name": "ConditionalCompilationSymbols",
+          "Type": "String"
+        }
+      ],
+      "InstructionSaves": [],
+      "SourceType": 2,
+      "SourceFile": "FlatRedBall.Math.PositionedObjectList<T>",
+      "SourceClassGenericType": "Entities\\PlayerBall",
+      "ExposedInDerived": true,
+      "AttachToContainer": true,
+      "GenerateTimedEmit": true,
+      "ContainedObjects": [
+        {
+          "InstanceName": "PlayerBall1",
+          "SourceClassType": "Entities\\PlayerBall",
+          "Properties": [
+            {
+              "Name": "AssociateWithFactory",
+              "Value": true,
+              "Type": "Boolean"
+            },
+            {
+              "Name": "SourceType",
+              "Value": 1,
+              "Type": "SourceType"
+            },
+            {
+              "Name": "PartitioningAutomaticManual",
+              "Value": 0
+            },
+            {
+              "Name": "ConditionalCompilationSymbols",
+              "Type": "String"
+            }
+          ],
+          "InstructionSaves": [],
+          "SourceType": 1,
+          "SourceFile": "Entities\\PlayerBall",
+          "AttachToContainer": true,
+          "GenerateTimedEmit": true
+        }
+      ]
+    }
+  ],
+  "Name": "Screens\\GameScreen",
+  "CustomClassesForExport": []
+}
